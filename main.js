@@ -9,7 +9,7 @@ const prefix = '-';
 const fs = require('fs');
 
 config({
-    path: __dirname + "/.env"
+    path: __dirname + "/token.env"
 });
 
 client.commands = new Discord.Collection();

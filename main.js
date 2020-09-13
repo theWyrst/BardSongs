@@ -1,10 +1,16 @@
 const Discord = require('discord.js');
 
+const { config } = require("dotenv");
+
 const client = new Discord.Client();
 
 const prefix = '-';
 
 const fs = require('fs');
+
+config({
+    path: __dirname + "/.env"
+});
 
 client.commands = new Discord.Collection();
 
@@ -31,5 +37,6 @@ client.on('message' , message => {
 });
 
 
-client.login('Njg2NDEzMjAwNjYwNzU4NTQz.XmW2Gw.2EJJV4NwvlHV2gI3WM4XTDWaQug')
+client.login(process.env.TOKEN);
+
 

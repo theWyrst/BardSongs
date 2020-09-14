@@ -25,14 +25,23 @@ client.once('ready', () => {
     console.log('BardSongs is online@')
 });
 
-client.on('message' , message => {
-    if(!message.content.startsWith(prefix) || message.author.bot) return;
+client.on('message', async message => {
+	const args = message.content.slice(prefix.length).split(/ +/);
+	const commandName = args.shift().toLowerCase();
+	const command = client.commands.get(commandName);
 
-    const args = message.content.slice(prefix.length).split(/ +/);
-    const command = args.shift().toLowerCase();
+	if (message.author.bot) return;
+	if (!message.content.startsWith(prefix)) return;
 
-    if(command === 'ping'){
-        client.commands.get('ping').execute(message, args);
+	try {
+		if(commandName == "ban" || commandName == "userinfo") {
+			command.execute(message, client);
+		} else {
+			command.execute(message);
+		}
+	} catch (error) {
+		console.error(error);
+        message.reply('There was an error trying to execute that command!');
     }
 });
 

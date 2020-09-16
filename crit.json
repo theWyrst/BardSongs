@@ -1,0 +1,24 @@
+{
+    "crit": [
+        {
+            "min":1,
+            "max":1,
+            "effect":"You feel accomplished, but nothing remarkable happens. Regular critical hit."
+        },
+        {
+            "min":2,
+            "max":5,
+            "effect":"You feel it is imperative to press the advantage no matter the cost. You can choose to gain advantage on all attacks against your target until the end of your next turn, but if you do all enemies have advantage on their attack rolls against you until the end of your next turn."
+        },
+        {
+            "min":6,
+            "max":9,
+            "effect":"You feel it is imperative to press the advantage, but maintain awareness of your surroundings. You can choose to gain advantage on all attacks against your target next turn, your target has advantage on their attack rolls against you until the end of your next turn."
+        },
+        {
+            "min":10,
+            "max":14,
+            "effect":"You know how to press the advantage. You gain advantage on all attacks against your target until the end of your next turn."
+        }
+    ]
+}

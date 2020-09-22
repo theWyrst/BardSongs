@@ -1,0 +1,84 @@
+{
+    "fail": [
+        {
+            "min":1,
+            "max":1,
+            "effect":"You are embarassed by your poor showing, but nothing remarkable happens. You miss your attack"
+        },
+        {
+            "min":2,
+            "max":5,
+            "effect":"You lose your combat footing, exposing yourself to your target. Your target has advantage on their first attack roll against you next round."
+        },
+        {
+            "min":6,
+            "max":9,
+            "effect":"You lose your combat footing, exposing yourself to your enemies. Your enemies have advantage on their first attack roll against you next round."
+        },
+        {
+            "min":10,
+            "max":14,
+            "effect":"You lose your combat footing, exposing yourself to your enemies. Your enemies have advantage on their first attack roll against you next round."
+        },
+        {
+            "min":15,
+            "max":19,
+            "effect":"Melee: You get tangled with your enemy and fall over. Ranged: You spill your quiver. Melee: You are knocked prone and your movement is reduced to 0. Your target must succeed a DC 10 dexterity check or they are also knocked prone. Ranged: You must pick up arrows individually from the ground using your 'environmental interaction', or the 'Use an Object' action to nock your bow."
+        },
+        {
+            "min":20,
+            "max":29,
+            "effect":"You lose your balance while attacking. You fall prone and your movement is reduced to 0."
+        },
+        {
+            "min":30,
+            "max":39,
+            "effect":"As you attack your opponent you begin to fear that they are the superior combatant. Disadvantage on your next attack roll against your target."
+        },
+        {
+            "min":40,
+            "max":49,
+            "effect":"You miss an attack and gaze upon the chaos of the battle, causing your confidence to falter. Disadvantage on your next attack roll against any target."
+        },
+        {
+            "min":50,
+            "max":59,
+            "effect":"You lose your grip as you attack. Roll a DC 10 Dexterity Check, on failure you drop your weapon at your feet."
+        },
+        {
+            "min":60,
+            "max":69,
+            "effect":"Melee: The weapon slips from your hand as you attack. Ranged: Your ammunition gets lodged in its container. Melee: Roll a DC 10 Dexterity Check, on failure you throw your weapon into your enemy's space. DM determines where the item is thrown on large sized or greater creatures. Ranged: You must use an action to organize the ammunition in its case before you can make another ranged attack."
+        },
+        {
+            "min":70,
+            "max":79,
+            "effect":"Melee: You lunge past an enemy exposing yourself to his attack. Ranged: Your missile startles your allies near your target. Melee: Enemy you were attacking is able to use their reaction to perform and attack of opportunity. Ranged: the target can perform an opportunity attack on any ally within melee range."
+        },
+        {
+            "min":80,
+            "max":84,
+            "effect":"Missing what you thought was a critical blow causes you to panic. End your current turn and you are surprised until the end of your next turn."
+        },
+        {
+            "min":85,
+            "max":89,
+            "effect":"You attack wildly and lose track of the fight around you. End your turn and move to the bottom of the initiative order at the start of the next round."
+        },
+        {
+            "min":90,
+            "max":94,
+            "effect":"You lose your footing while attacking and fall to the ground bumping your head.You fall prone. Roll a DC 10 constitution save, on failure you take 1d6 damage and are knocked unconscious for 1 minute or until you receive damage from any source. On success take half damage and you remain conscious."
+        },
+        {
+            "min":95,
+            "max":99,
+            "effect":"You lose your footing while attacking and fall head first. You fall prone. Roll a DC 15 constitution save, on failure you take 2d6 damage and are knocked unconscious for 1 minute or until you receive damage from any source. On success take half damage and you remain conscious."
+        },
+        {
+            "min":100,
+            "max":100,
+            "effect":"You lose your footing while attacking and slam your head into the ground. You fall prone, take 3d6 damage, and become unconscious for 1 minute or until you receive damage from any source."
+        }
+    ]
+}
